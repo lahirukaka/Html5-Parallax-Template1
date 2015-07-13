@@ -3,7 +3,8 @@
     max-height: 780px;
     background-image: url(../images/large/hero-px-bg.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%; }
+    background-size: 100% 100%;
+    background-attachment: fixed; }
     #landingpage #heroimgwrapper #heroimg-lvl1 {
       max-height: 670px;
       height: 35%;

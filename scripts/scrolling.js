@@ -6,9 +6,9 @@ $(window).load(function(){
 		/*landing to about*/
 		if(scrolled < startabout)
 		{
-			$('#heroimg-lvl1').css('margin-bottom',scrolled);
+			$('#heroimg-lvl1').css('margin-top',scrolled);
 			$('#mainnav').removeClass('menubar');
-		}else $('#heroimg-lvl1').css('margin-bottom','0px');
+		}else $('#heroimg-lvl1').css('margin-top','0px');
 		/*.............................................................*/
 		
 		/*about page*/

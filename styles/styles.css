@@ -43,7 +43,7 @@ div, p, ul, h1, h2, h3, h4, nav {
   background-color: #F8BBD0; }
   #landingpage #heroimgwrapper {
     overflow: hidden;
-    position: fixed;
+    position: relative;
     height: 100vh;
     width: 100vw;
     z-index: 0;
@@ -160,12 +160,24 @@ div, p, ul, h1, h2, h3, h4, nav {
   position: relative;
   background-color: #313244; }
 
+#mainfooter {
+  background-color: #fff;
+  height: 150px;
+  position: relative;
+  width: 100%;
+  z-index: -1; }
+  #mainfooter #footerwrapper {
+    position: fixed;
+    bottom: 0px;
+    z-index: -1; }
+
 @media screen and (min-width: 801px) {
   #landingpage #heroimgwrapper {
     max-height: 780px;
     background-image: url(../images/large/hero-px-bg.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%; }
+    background-size: 100% 100%;
+    background-attachment: fixed; }
     #landingpage #heroimgwrapper #heroimg-lvl1 {
       max-height: 670px;
       height: 35%;
