@@ -158,7 +158,7 @@ div, p, ul, h1, h2, h3, h4, nav {
 .page {
   overflow-X: hidden;
   position: relative;
-  background-color: #F8BBD0; }
+  background-color: #313244; }
 
 @media screen and (min-width: 801px) {
   #landingpage #heroimgwrapper {
