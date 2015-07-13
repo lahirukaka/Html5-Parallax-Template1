@@ -1,0 +1,10 @@
+.menubar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw !important;
+  transition: all 0.8s; }
+
+.activemenu {
+  background-color: #e91e63;
+  color: #fff !important; }

@@ -1,0 +1,97 @@
+@media screen and (min-width:801px)
+{
+	#landingpage
+	{
+		#heroimgwrapper
+		{
+			max-height:780px;
+			
+			background:
+			{
+				image:url(../images/large/hero-px-bg.jpg);
+				repeat:no-repeat;
+				size:100% 100%;
+			}
+			
+			#heroimg-lvl1
+			{
+				max-height:670px;
+				height:35%;
+				width:100%;
+				position:relative;
+				left:-1500px;
+				background:
+				{
+					image:url(../images/large/hero-px-lvl2.png);
+					size:55% 96%;
+				}
+			}	
+		}
+		
+		span
+		{
+			left:40%;
+			font-size:4rem;
+		}
+	}
+}
+
+#aboutpage
+{
+	margin:0 auto;
+	box-shadow:-2px -2px 10px #000;
+	
+	#mainnav
+	{
+		height:auto;
+		margin:0 auto;
+		width:80%;
+		ul > li
+		{
+			line-height:30px;
+			font-size:1.4rem;
+			margin:5px 12px;
+			border:1px solid rgba(0,0,0,0.1);
+		}
+	}
+}
+
+#staffpage
+{
+	margin:0 auto;
+	box-shadow:-2px -2px 10px #000;
+}
+
+#contactpage
+{
+	margin:0 auto;
+	box-shadow:-2px -2px 10px #000;
+}
+
+.contentwrapper
+{
+	width:80%;
+	min-width:770px;
+	
+	header
+	{
+		font-size:2rem;
+	}
+	
+	.headimg
+	{
+		float:right;
+		padding:15px;
+	}
+	
+	article
+	{
+		p
+		{
+			font-size:1.2rem;
+			line-height:1.5;
+			padding:3px;
+			margin:2px 5px;
+		}
+	}
+}

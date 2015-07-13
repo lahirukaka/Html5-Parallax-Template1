@@ -1,0 +1,25 @@
+$primary_color_100:#F8BBD0;
+$primary_color:#E91E63;
+$font-color:#37474F;
+
+@mixin border-radius($num)
+{
+	border-radius:$num;
+	-webkit-border-radius:$num;
+	-moz-border-radius:$num;
+}
+
+.menubar
+{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100vw !important;
+	transition:all 0.8s;
+}
+
+.activemenu
+{
+	background-color:$primary_color;
+	color:#fff !important;
+}

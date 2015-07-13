@@ -1,0 +1,133 @@
+html{font-size:14px;}
+body{margin:0px;padding:0px;background-color:#fff;}
+
+div,p,ul,h1,h2,h3,h4,nav{padding:0px;margin:0px;}
+
+#landingpage
+{
+	height:100vh;
+	@include display(flex);
+	@include align-items(center);
+	overflow-X:hidden;
+	background-color:$primary_color_100;
+	
+	#heroimgwrapper
+	{
+		overflow:hidden;
+		position:fixed;
+		height:100vh;
+		width:100vw;
+		z-index:0;
+		@include flex-grow(1);
+		@include filter(hue-rotate(30deg));
+		@include display(flex);
+		@include align-items(center);
+		
+		#heroimg-lvl1
+		{
+			@include filter(sepia(1));
+			position:relative;
+			background:
+				{
+					repeat:no-repeat;
+					position:center center;
+					color:rgba(255,255,255,0.4);
+				}
+		}
+	}
+	
+	span
+	{
+		position:absolute;
+		display:none;
+		color:rgba(255,255,255,0.8);
+		bottom:0px;
+		cursor:pointer;
+		padding:5px 10px;
+		background-color:rgba(255,255,255,0.5);
+		border:2px solid #fff;
+		@include border-top-radius(10px);
+		transition:color,background-color 0.4s;
+		&:before{content:'>> ';}
+		&:after{content:' <<';}
+		&:hover
+		{
+			color:rgba(255,255,255,1);
+			background-color:rgba(255,255,255,0.1);
+		}
+	}
+}
+
+#aboutpage
+{
+	#mainnav
+	{
+		border:2px solid $primary-color;
+		background-color:#fff;
+		z-index:10;
+		border:2px solid $primary_color;
+		@include border-bottom-radius(10px);
+		box-shadow:2px 2px 5px #000;
+		ul
+		{
+			@include display(flex);
+			@include justify-content(space-around);
+			margin:5px 0;
+			list-style:none;
+			
+			li
+			{
+				text-align:center;
+				font-weight:700;
+				color:rgba(0,0,0,0.8);
+				@include flex-grow(1);
+				cursor:pointer;
+				transition:color,background-color 0.4s,0.4s;
+				&:hover
+				{
+					color:rgba(255,255,255,1);
+					background-color:$primary_color;
+				}
+			}
+		}
+	}
+}
+
+#staffpage
+{
+	
+}
+
+.contentwrapper
+{
+	background-color:#fff;
+	margin:5px auto;
+	@include border-radius(5px);
+	box-sizing:border-box;
+	padding:15px;
+	
+	header
+	{
+		color:$primary_color;
+		font-weight:700;
+		text-align:center;
+		margin:5px 0;
+	}
+	
+	article
+	{
+		color:$font-color;
+
+		p
+		{
+			text-align:justify;
+		}
+	}
+}
+
+.page
+{
+	overflow-X:hidden;
+	position:relative;
+	background-color:$primary_color_100;
+}
