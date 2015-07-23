@@ -76,9 +76,9 @@
 		</div>
 		<div id="sitemapwrapper">
 			<ul id="sitemaplist">
-				<a href="#"><li>About</li></a>
-				<a href="#"><li>Staff</li></a>
-				<a href="#"><li>Contact</li></a>
+				<li>About</li>
+				<li>Staff</li>
+				<li>Contact</li>
 			</ul>
 		</div>
 		<div id="copyrights">

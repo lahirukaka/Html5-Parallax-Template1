@@ -175,7 +175,7 @@ a
 		
 		#copyrights
 		{
-			a {color:#eee;}
+			color:#eee;
 		}
 	}
 }

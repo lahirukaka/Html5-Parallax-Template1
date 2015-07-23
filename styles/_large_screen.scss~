@@ -99,7 +99,7 @@
 
 #mainfooter
 {
-	height:210px;
+	height:200px;
 	
 	#footerwrapper
 	{
